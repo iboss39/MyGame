@@ -1,4 +1,5 @@
-package com.example.iboss.sensorlist;
+package com.example.mygame;
+
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -51,7 +52,7 @@ public class GameSurfaceView extends SurfaceView implements SurfaceHolder.Callba
     Bitmap bearBmp=null;
 
     public GameSurfaceView(Context context,
-                            AttributeSet attrs) {
+                           AttributeSet attrs) {
         super(context, attrs);
         bearBmp= BitmapFactory.decodeResource(getResources(), R.drawable.bear);
         setupSurfaceHolder();
@@ -97,7 +98,3 @@ public class GameSurfaceView extends SurfaceView implements SurfaceHolder.Callba
         Log.d("[PCC]", "surfaceDestroyed!!");
     }
 }
-
-
-
-

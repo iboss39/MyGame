@@ -1,8 +1,6 @@
-package com.example.iboss.sensorlist;
+package com.example.mygame;
 
 import android.graphics.Canvas;
-
-import com.example.iboss.sensorlist.GameSurfaceView;
 
 class DrawThread extends Thread {
 
